@@ -1,3 +1,5 @@
+import "./contact.css";
+
 export function Contact() {
-  return <div>Contact</div>;
+  return <section id="contact">Contact Me</section>;
 }

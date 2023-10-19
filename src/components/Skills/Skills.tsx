@@ -1,3 +1,3 @@
 export function Skills() {
-  return <div>Skills</div>;
+  return <section>Skills</section>;
 }

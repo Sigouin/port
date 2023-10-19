@@ -1,3 +1,5 @@
+import "./Footer.css";
+
 export function Footer() {
-  return <div>Footer</div>;
+  return <section id="footer">Bottom of the pageeee</section>;
 }
