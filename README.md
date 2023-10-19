@@ -1,2 +1,1 @@
-# port
-Portfolio in React
+Creating a portfolio using React.
