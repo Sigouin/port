@@ -1,3 +1,7 @@
-export function Skills() {
+import "./Skills.css";
+
+const Skills = () => {
   return <section>Skills</section>;
-}
+};
+
+export default Skills;
