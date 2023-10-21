@@ -4,7 +4,7 @@ import { Contact } from "./components/Contact/contact";
 import { Footer } from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
-import { Portfolio } from "./components/Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Skills from "./components/Skills/Skills";
 
 function App() {
