@@ -1,7 +1,4 @@
 import "./about.css";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -9,36 +6,21 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">{/*} <img ></img> */}</div>
-        </div>
-
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>Something</small>
-            </article>
-
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>I dunno about this section</small>
-            </article>
-          </div>
-
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad soluta
-            iure facilis unde odit cupiditate repudiandae aspernatur nobis a! Ex
-            ullam minus vitae quis consequuntur iure assumenda esse odio
-            laudantium.
+            Hello world! After spending the last 14 years going from a medical
+            biller to an Executive manager I decided it was time to change
+            course. I decided to pursue my passion for programming. I've spent
+            the past year learning the ins and outs of JavaScript with the help
+            of The Odin Project. I've also had the privilege to have a 1 on 1
+            mentorship with a senior developer going over coding principles and
+            best practices as well as Agile methodologies, issue tracking and
+            sprint life cycle with Jira. I'm currently looking for a full time
+            position as a software developer to grow and hone my skills.
+            <br />
+            <br />
+            When I'm not coding, I enjoy spending time with the family, playing
+            video games, or learning something new.
           </p>
 
           <a href="#contact" className="btn btn-primary">

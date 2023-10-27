@@ -6,8 +6,8 @@ import "./portfolio.css";
 //   {
 //     id: 1,
 //     image:
-//     title:
-//     github:
+//     title: 'DoorDash Mockup for Chick-Fila-A',
+//     github: 'https://github.com/Sigouin/dashdoor',
 //     demo:
 //   },
 // ]
@@ -21,10 +21,10 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-          <h3>This is a portfolio item title</h3>
+          <h3>DashDoor</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com"
+              href="https://github.com/Sigouin/dashdoor"
               className="btn"
               target="_blank"
               rel="noreferrer"

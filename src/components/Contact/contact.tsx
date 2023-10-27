@@ -28,9 +28,9 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>mattsigouincodes@gmail.com</h5>
+            <h5>matt@sigouin.codes</h5>
             <a
-              href="mailto:mattsigouincodes@gmail.com"
+              href="mailto:matt@sigouin.codes"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,6 +49,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
+            rows={10}
             placeholder="Your Message"
             required
           ></textarea>
