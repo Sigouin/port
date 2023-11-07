@@ -7,7 +7,7 @@ const About = () => {
       <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__content">
-          <p>
+          <p className="about__p">
             Hello world! After spending the last 14 years going from a medical
             biller to an Executive manager I decided it was time to change
             course. I decided to pursue my passion for programming. I've spent

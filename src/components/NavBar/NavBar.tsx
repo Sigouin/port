@@ -7,8 +7,6 @@ import { useState } from "react";
 const NavBar = () => {
   const [activeNav, setActiveNav] = useState("#home");
 
-  // Need to add services and fix some navBar functioning.
-
   return (
     <nav>
       <a

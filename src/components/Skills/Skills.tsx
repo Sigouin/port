@@ -4,8 +4,7 @@ import { BsPatchCheckFill } from "react-icons/bs";
 const Skills = () => {
   return (
     <section id="skills">
-      <h5>Skills</h5>
-      <h2>or something</h2>
+      <h2>Developer Tools?</h2>
 
       <div className="container skills__container">
         <div className="skills__frontend">
