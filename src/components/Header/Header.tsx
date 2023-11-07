@@ -2,6 +2,7 @@ import "./Header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import me from "../../assets/me.png";
+import NameSlider from "../slider/slider";
 
 function Header() {
   return (
@@ -20,6 +21,9 @@ function Header() {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
+        <div>
+          <NameSlider />
+        </div>
       </div>
     </header>
   );

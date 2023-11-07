@@ -1,46 +1,40 @@
 import "./Skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
-const Skills = () => {
+interface IName {
+  name?: string;
+}
+
+const Skills = ({ name }: IName) => (
+  <article className="skills__details">
+    <BsPatchCheckFill className="skills__details-icon" />
+    <h4>{name}</h4>
+  </article>
+);
+
+const SkillsList = () => {
+  const tools = [
+    "TypeScript",
+    "React",
+    "JavaScript",
+    "Next.js",
+    "Vercel Deployment",
+    "HTML",
+  ];
+
   return (
     <section id="skills">
-      <h2>Developer Tools?</h2>
+      <h2>Developer Tools</h2>
 
       <div className="container skills__container">
-        <div className="skills__frontend">
-          <h3>Frontend Development</h3>
-          <div className="skills__content">
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <h4>HTML</h4>
-            </article>
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <h4>JavaScript</h4>
-            </article>
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <h4>React</h4>
-            </article>
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <h4>Tailwind</h4>
-            </article>
-          </div>
-        </div>
-        {/* === End of Front  */}
-        <div className="skills__backend">
-          <h3>Backend Development</h3>
-          <div className="skills__content">
-            <article className="skills__details">
-              <BsPatchCheckFill className="skills__details-icon" />
-              <h4>Node JS</h4>
-            </article>
-          </div>
+        <div>
+          {tools.map((tools, index) => (
+            <Skills key={index} name={tools} />
+          ))}
         </div>
       </div>
     </section>
   );
 };
 
-export default Skills;
+export default SkillsList;
